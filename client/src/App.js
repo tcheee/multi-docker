@@ -17,7 +17,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Working in prod!
+            Work in prod!
           </a>
           <Link to="/">Home</Link>
           <Link to="/otherpage">Other Page</Link>
