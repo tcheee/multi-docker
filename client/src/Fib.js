@@ -8,7 +8,6 @@ class Fib extends Component {
     index: '',
   };
 
-  // trigger changes
   componentDidMount() {
     this.fetchValues();
     this.fetchIndexes();
