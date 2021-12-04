@@ -21,7 +21,7 @@ function App() {
             Learn Deployment with Kubernetes, yes!
           </a>
           <Link to="/">Home</Link>
-          <Link to="/otherpage">Other Page</Link>
+          <Link to="/otherpage">An other page to click on</Link>
         </header>
         <div>
           <Route exact path="/" component={Fib} />
