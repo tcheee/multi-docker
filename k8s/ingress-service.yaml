@@ -16,7 +16,7 @@ spec:
     - hosts:
         - tcherret.xyz
         - www.tcherret.xyz
-      secretName: tcherret-xyz-tls-wvpc6
+      secretName: tcherret-xyz
   rules:
     - host: tcherret.xyz
       http:
