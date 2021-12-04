@@ -1,0 +1,14 @@
+apiVersion: cert-manager.io/v1
+
+kind: Certificate
+metadata:
+  name: tcherret-xyz-tls
+spec:
+  secretName: tcherret-xyz
+  issuerRef:
+    name: letsencrypt-prod
+    kind: ClusterIssuer
+  commonName: tcherret.xyz
+  dnsNames:
+    - tcherret.xyz
+    - www.tcherret.xyz
