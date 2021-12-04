@@ -1,13 +1,13 @@
 docker build -t tcheee42/multi-client:$SHA  -f ./client/Dockerfile ./client
-docker build -t tcheee42/multi-client:latest -f ./client/Dockerfile ./client
+# docker build -t tcheee42/multi-client:latest -f ./client/Dockerfile ./client
 docker build -t tcheee42/multi-server:$SHA -f ./server/Dockerfile ./server
-docker build -t tcheee42/multi-server:latest -f ./server/Dockerfile ./server
+# docker build -t tcheee42/multi-server:latest -f ./server/Dockerfile ./server
 docker build -t tcheee42/multi-worker:$SHA -f ./worker/Dockerfile ./worker
-docker build -t tcheee42/multi-worker:latest -f ./worker/Dockerfile ./worker
+# docker build -t tcheee42/multi-worker:latest -f ./worker/Dockerfile ./worker
 
-docker push tcheee42/multi-client:latest
-docker push tcheee42/multi-server:latest
-docker push tcheee42/multi-worker:latest
+# docker push tcheee42/multi-client:latest
+# docker push tcheee42/multi-server:latest
+# docker push tcheee42/multi-worker:latest
 docker push tcheee42/multi-client:$SHA
 docker push tcheee42/multi-server:$SHA
 docker push tcheee42/multi-worker:$SHA
